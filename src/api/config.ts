@@ -1,1 +1,4 @@
-ZXhwb3J0IGNvbnN0IEFOVEhST1BJQ19DT05GSUcgPSB7CiAgYW50aHJvcGljQXBpUHJlZml4OiAnaHR0cDovL2xvY2FsaG9zdDo4MDAxL2FudGhyb3BpYy92MScsCiAgYW50aHJvcGljQmFzZVVybDogJ2h0dHBzOi8vYXBpLmFudGhyb3BpYy5jb20vdjEnLAp9IGFzIGNvbnN0Ow==
+export const ANTHROPIC_CONFIG = {
+  anthropicApiPrefix: 'http://localhost:8001/anthropic/v1',
+  anthropicBaseUrl: 'https://api.anthropic.com/v1',
+} as const;
