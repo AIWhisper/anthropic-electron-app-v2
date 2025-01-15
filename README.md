@@ -1,8 +1,14 @@
 # Anthropic Electron App
 
-This repository contains an enhanced version of the Anthropic Linux application, modified to provide improved cross-platform compatibility and enhanced API interaction capabilities. The project builds upon the foundation established by the Anthropic team while introducing significant improvements to the API handling, configuration management, and development workflow.
+This repository contains a macOS-optimized version of the Anthropic GUI application (originally developed by ezetech at [anthropic-gui](https://github.com/ezetech/anthropic-gui)). While the original application was designed for Linux environments, this fork has been specifically enhanced to provide native macOS experience while maintaining cross-platform compatibility. The project introduces significant improvements to API handling, configuration management, and development workflow, with particular focus on macOS integration.
 
 ## Key Enhancements
+
+### macOS Optimization
+- Native macOS menu integration and keyboard shortcuts
+- Improved performance on Apple Silicon processors
+- macOS-specific window management and UI behaviors
+- Enhanced system integration with macOS security features
 
 ### API Integration Updates
 - Implemented a robust proxy server setup for secure API communication
@@ -93,7 +99,7 @@ anthropic-electron-app-v2/
 
 ## Credits
 
-This project is based on the original Linux application developed by the Anthropic team, with significant modifications and improvements contributed by the community. Special thanks to all contributors who have helped enhance and optimize the application.
+This project is a macOS-optimized fork of the [anthropic-gui](https://github.com/ezetech/anthropic-gui) project by ezetech, with significant modifications and improvements for macOS compatibility and enhanced API interactions. Special thanks to the original developers and all contributors who have helped enhance and optimize the application.
 
 ## License
 
